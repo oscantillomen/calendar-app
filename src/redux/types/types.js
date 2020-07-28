@@ -6,5 +6,12 @@ export const types = {
 	eventAddNew: '[event] Add new',
 	eventClearActiveEvent: '[event] Clear active event',
 	eventUpdated: '[event] Event updated',
-	eventDeleted: '[event] Event deleted'
+	eventDeleted: '[event] Event deleted',
+
+	authCheckingFinish: '[auth] Finish checking login',
+	authStartLogin: '[auth] Start login',
+	authLogin: '[auth] Login',
+	authStartRegister: '[auth] Start register',
+	authStartTokenRenew: '[auth] Register',
+	authLogout: '[auth] Logout',
 };
